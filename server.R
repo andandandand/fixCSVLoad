@@ -4,7 +4,7 @@ library(shiny)
 # Define server logic to read selected file ----
 server <- function(input, output) {
 
-  
+    
   output$loadedMat <- renderTable({
     
     if (is.null(input$file1$datapath)) {
