@@ -54,7 +54,7 @@ ui <- fluidPage(
     mainPanel(
       
       # Output: Data file ----
-      tableOutput("contents")
+      tableOutput("loadedMat")
       
     )
     
